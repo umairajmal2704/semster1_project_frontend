@@ -5,21 +5,26 @@
 
 
 .navebar{
-    background-color: black;
-    height: 60px;
+    background-color: white;
+    border-bottom: 2px solid cadetblue;
+    height: 70px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 a{
-     text-decoration: none;
-    color: #73AF6E;
+    text-decoration: none;
+    color: cadetblue;
+    transition: all 0.3s;
 }
+
 a:hover{
-  color: red;
+  transform: scale(1.05);
 }
+
 .welcome{
-    height: 100px;
+    height: 180px;
     /* width: 500px; */
 
     border-radius: 3%;
@@ -29,100 +34,71 @@ a:hover{
     align-items: center;
     flex-direction: column;
     align-items: center;
-    /* margin-left: 350px;    */
 }
-/* .wel{
+
+
+
+.parentContainer{
+    width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-} */
-.welcome:hover{
-    height: 110px;
 }
-h4,p{
-    margin: 10px;
-    padding-left: 10px;
-}
-#header{
-    color:  #73AF6E;
-}
-body{
-    background-color: #73AF6E;
-}
-.parentContainer{
-width: 90%;
-margin: 10px auto;
-}
+
+
 .containers{
+    width: 80%;
+    height: 100%;
     display: flex;
-    /* justify-content: space-between; */
-    /* align-content: space-evenly; */
+    align-items: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 30px;
-    width: 1300px;
-    margin: auto;
+    padding: 20px 0;
+    overflow: hidden;
 }
  /* div{
     display: block;
  } */
 
  .student{
-     height: 150px;
+    position: relative;
+    overflow: hidden;
+    height: 150px;
     background-color: white;
     width: 350px;
-    /* display: absolute; */
-    /* left: 0; */
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 12px;
+    border: 2px solid cadetblue;
     flex-direction: column;
-    border-radius: 7%;   
-    animation: slide 3s ease-in infinite alternate; 
+    border-radius: 5px;
     padding: 20px;
+}
+
+.inner-student{
+    transition: all 0.2s ease-in-out; position: absolute; width: 200%; height: 200%; left: 100%; background-color: rgba(95, 158, 160, 0.2);
+}
+
+.student:hover .inner-student{
+
+    left: 0%;
 
 }
-/* @keyframes slide {
-    from{
-        left: 0px;
-        background-color: red;
-    }
-    to{
-        left: 500px;
-        background-color: blue;
-    }
-}  */
+
+
 .ancher{ 
-    height: 25px; 
-     width: 100px ; 
-    background-color:   rgb(204, 236, 138);
-    padding: 10px;
+    background-color: cadetblue;
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
     
 }
-.submit{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-button{
-    color: wheat;
-    background-color: green;
-    height: 30px;
-    width: 100px;
-}
-button:hover{
-   background-color:  red;
-}
-/* .view{
-    height: 100px;
-    background-color: white;
-    background-color: white;
-    width: 200px;    
-}
-.attendance{
-    height: 100px;
-    background-color: white;
-    width: 700px;
-} */
+
+
 footer{
     height: 50px;
     width: 100%;
