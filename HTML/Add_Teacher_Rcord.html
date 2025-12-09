@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styleattendance.css">
+    <link rel="stylesheet" href="../CSS/Add_teacher_record.css">
 </head>
 <body>
-    <nav class="navebar">
+      <nav class="navebar">
     <!-- page content -->
     <a href="pra.html">Home</a>
     <a href="add_student.html">Add Student</a>
@@ -15,41 +15,39 @@
     <a href="StudentAttendance.html">Attendance</a>
 
   </nav>
-  <h2>Student Attendance</h2>
-  <table>
-    <thead>
+    <h2>Teacher Record</h2>
+    <table>
         <th>Name</th>
-        <th>Roll no</th>
-        <th>Class</th>
-        <th>Present</th>
-        <th>Absent</th>
-    </thead>
-    <tbody>
-        <!-- Student 1 -->
+        <th>Qualification</th>
+        <th>Subject</th>
+        <th>Telephone</th>
+        <th>Email</th>
+        <!-- Teacher 1 -->
         <tr>
         <td><input type="text" required></td>
         <td><input type="text" required></td>
         <td><input type="text" required></td>
-        <td><input type="radio"  name="s1" value="p"></td>
-        <td><input type="radio" required name="s1" value="A"></td>
+        <td><input type="tel"  required></td>
+        <td><input type="email" required ></td>
         </tr>
-        <!-- student 2 -->
+        <!-- Teacher 2 -->
         <tr>
         <td><input type="text" required></td>
         <td><input type="text" required></td>
         <td><input type="text" required></td>
-        <td><input type="radio"  name="s2" value="p"></td>
-        <td><input type="radio" required name="s2" value="A"></td>
+        <td><input type="tel"  required></td>
+        <td><input type="email" required ></td>
         </tr>
-        <!-- Student 3 -->
+        <!-- Teacher 3 -->
         <tr>
         <td><input type="text" required></td>
         <td><input type="text" required></td>
         <td><input type="text" required></td>
-        <td><input type="radio"  name="s3" value="p"></td>
-        <td><input type="radio" required name="s3" value="A"></td>
+        <td><input type="tel"  required></td>
+        <td><input type="email" required ></td>
         </tr>                
     </tbody>
-  </table>  
+  </table>
+  <button type="submit">Submit</button>
 </body>
 </html>
