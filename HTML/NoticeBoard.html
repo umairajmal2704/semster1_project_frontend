@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleNotice.css">
+</head>
+<body>
+      <nav class="navebar">
+    <!-- page content -->
+    <a href="pra.html">Home</a>
+    <a href="add_student.html">Add Student</a>
+    <a href="iewStudent.html">View student</a>
+    <a href="StudentAttendance.html">Attendance</a>
+
+  </nav>
+    <form action="NoticeBoard.html">
+    <div>
+        <h2>Notice Board</h2>
+        <div class="field">
+            <label for="Notice">Notice</label>
+         <textarea name="Notice" id="Notice" required></textarea>
+       </div>
+        <div class="field">
+        <label for="date">Date</label>
+        <input type="date" id="date">
+        </div>
+        <div class="field">
+        <label for="section">Section</label>
+        <input type="text" id="section">
+        </div>
+    </div>
+    <div>
+        <h3>Test Date</h3>
+        <div class="field">
+        <label for="Subject" >Subject</label>
+        <input type="text" id="Subject" required>  
+        </div>
+        <div class="field">
+        <label for="Date">Date</label>
+        <input type="date" id="Date">
+        </div>
+        <div class="field">  
+        <label for="Time">Time</label>
+        <input type="time" id="Time" required>
+        </div>                    
+    </div>
+    <div>
+        <h3>Parent Teaching Day</h3>
+        <div class="field">
+        <label for="adress">venue</label>
+            <input type="text"id="adress"  required>
+        
+        </div>
+        <div class="field">
+        <label for="dates">Date</label>
+        <input type="date" id="dates" required>
+        </div>
+        <div class="field">
+        <label for="day">Day</label>
+        <input type="day" id="day" required> 
+        </div>               
+    </div>
+    <div>
+        <h3>Sport Day</h3>
+        <div class="field">
+        <label for="Day">Day</label>
+        <input type="day" id="Day"> 
+        </div>
+        <div class="field"> 
+        <label for="Dates">Date</label>
+        <input type="date" id="Dates"> 
+    </div> 
+        <div class="field">
+        <label for="Activities">Activities</label>        
+        <textarea  id="Activities" required></textarea> 
+        </div>               
+        <label for="drees">Dress code</label>
+        <input type="text" id="drees">
+    </div>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>

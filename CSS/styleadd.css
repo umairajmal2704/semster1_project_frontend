@@ -1,0 +1,49 @@
+
+
+ * {
+    margin: 0;
+    padding: 0;
+}
+.navebar{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+     text-decoration: none;
+    color: #73AF6E;
+}
+a:hover{
+  color: red;
+}
+
+.card {
+    background-color: #73AF6E;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;   
+    flex-wrap: wrap;      
+    flex-direction: column;
+    gap: 15px;
+    height: 670px;
+}
+input{
+    width: 400px;
+    height: 35px;
+}
+textarea{
+    width: 400px;
+}
+.option{
+    width: 400px;
+}              
+button{
+    width: 100px;
+    height: 30px;
+   background-color: chartreuse;
+}
+
+
