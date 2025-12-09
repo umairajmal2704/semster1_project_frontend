@@ -1,24 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="stylelogin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/stylelogin.css">
 </head>
+
 <body>
-    <div class="container">
-        <div class="card">
-    <div class="user">       
-    <label for="username">Username</label>
-    <input type="text" id="username">
-    </div> 
-    <div class="password">
-    <label for="password">Password</label>
-    <input type="password" name="" id="password">
-    </div>
-    <button type="login">Login</button>
-    </div>
-    </div>
+
+    <form class="container" style="font-family: 'Poppins';">
+
+        <div class="card" style="padding: 20px 20px;">
+
+            <h1 style="color: cadetblue;">Login</h1>
+
+            <div class="user" style="margin-top: 30px; width: 100%; display: flex; flex-direction: column;">
+                <label for="username" style="font-size: 15px;">User ID</label>
+                <input type="text" id="username" style="padding: 12px; font-size: 15px; outline: none; border: 2px solid cadetblue; margin-top: 3px; color: cadetblue;">
+            </div>
+            <div class="user" style="margin-top: 23px; width: 100%; display: flex; flex-direction: column;">
+                <label for="password" style="font-size: 15px;">Password</label>
+                <input type="password" id="password" style="padding: 12px; font-size: 15px; outline: none; border: 2px solid cadetblue; margin-top: 3px; color: cadetblue; font-family: 'verdana';">
+            </div>
+
+            <a href="#" style="width: 100%; margin-top: 15px; color: black;">Forgot Password?</a>
+        
+
+            <button type="submit" style="width: 100%; height: 50px; margin-top: 35px; font-size: 18px; background-color: cadetblue; outline: none; border: none; color: white; letter-spacing: 1px;">Login</button>
+
+            <p style="margin-top: 25px; font-size: 14px;">Don't Have An Account? <a href="./signup.html" style="color: rgb(44, 102, 104);">Signup Here</a></p>
+
+        </div>
+
+    </form>
+
 </body>
+
 </html>

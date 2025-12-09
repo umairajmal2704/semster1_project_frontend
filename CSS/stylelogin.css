@@ -3,8 +3,8 @@
     padding: o;
 }
 .container{
-    background-color:  #73AF6E;
-    height: 700px;
+    background-color: white;
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -14,20 +14,19 @@
 .card{
     display: flex;
     flex-direction: column;
-    background-color: aliceblue;
-    justify-content: space-evenly;
-   height: 600px; 
-   width: 400px;
-   border-radius: 3%;
-   box-shadow: 5px 13px 8px black ;
+    background-color: white;
+    border: 2px solid cadetblue;
+    justify-content: start;
+    align-items: center;
+    width: 450px;
+    border-radius: 5px;
 }
-.card:hover{
-    height: 615px;
-}
+
 button{
     align-items: center;
     width: 200px;
 }
+
 button:hover{
     background-color: gray;
 }
