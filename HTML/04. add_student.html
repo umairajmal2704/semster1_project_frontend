@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../CSS/Add_student.css " />
+  </head>
+  <body style="font-family: 'Poppins'">
+
+    <nav class="navebar">
+      <!-- page content -->
+      <a href="../HTML/01. front.html">Home</a>
+      <a href="../HTML/04. add_student.html">Add Student</a>
+      <a href="../HTML/Student_Attendance.html">Attendance</a>
+    </nav>
+
+    <form class="card">
+
+      <h2 >Add Student</h2>
+
+      <div style="width: 100%; display: flex; flex-direction: column; align-items: start; justify-content: center; margin-top: 20px;">
+
+        <h4 style="font-weight: 400; font-size: 18px;">General Information</h4>
+  
+        <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; flex-wrap: wrap;">
+          
+          <input type="text" placeholder="Student Name" style="padding: 15px 10px; font-size: 15px; width: 23%; border: 2px solid cadetblue; border-radius: 4px; outline: none; color: cadetblue; margin-top: 20px;" required />
+          <input type="number" placeholder="CNIC" style="padding: 15px 10px; font-size: 15px; width: 23%; border: 2px solid cadetblue; border-radius: 4px; outline: none; color: cadetblue; margin-top: 20px;" required />
+          <input type="text" placeholder="Father's Name" style="padding: 15px 10px; font-size: 15px; width: 23%; border: 2px solid cadetblue; border-radius: 4px; outline: none; color: cadetblue; margin-top: 20px;" required />
+          <input type="email" placeholder="Email" style="padding: 15px 10px; font-size: 15px; width: 23%; border: 2px solid cadetblue; border-radius: 4px; outline: none; color: cadetblue; margin-top: 20px;" required />
+          <input type="number" placeholder="Phone Number" style="padding: 15px 10px; font-size: 15px; width: 23%; border: 2px solid cadetblue; border-radius: 4px; outline: none; color: cadetblue; margin-top: 20px;" required />
+          <input type="date" placeholder="Date Of Birth" style="padding: 15px 10px; font-size: 15px; width: 23%; border: 2px solid cadetblue; border-radius: 4px; outline: none; color: cadetblue; margin-top: 20px;" required />
+          <select name="gender" style="padding: 13px 10px; font-size: 15px; border: 2px solid cadetblue; border-radius: 4px; width: 23%; color: cadetblue; outline: none;" required>
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+
+
+        </div>
+
+      </div>
+
+      <hr style="width: 100%; margin: 30px 0; border: 1px solid lightgray;">
+      
+      <div style="width: 100%; display: flex; flex-direction: column; align-items: start; justify-content: center;">
+
+        <h4 style="font-weight: 400; font-size: 18px;">Address Information</h4>
+  
+        <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; flex-wrap: wrap;">
+          
+          <select name="province" style="padding: 13px 10px; font-size: 15px; border: 2px solid cadetblue; border-radius: 4px; width: 30%; color: cadetblue; outline: none; margin-top: 20px;" required>
+            <option value="">Select Province</option>
+            <option value="punjab">Punjab</option>
+            <option value="sindh">Sindh</option>
+            <option value="balochistan">Balochistan</option>
+            <option value="kpk">KPK</option>
+            <option value="gilgit">Gilgit</option>
+          </select>
+
+          
+          <input type="text" placeholder="City" style="padding: 15px 10px; font-size: 15px; width: 30%; border: 2px solid cadetblue; border-radius: 4px; outline: none; color: cadetblue; margin-top: 20px;" required />
+          <input type="number" placeholder="Postal Code" style="padding: 15px 10px; font-size: 15px; width: 30%; border: 2px solid cadetblue; border-radius: 4px; outline: none; color: cadetblue; margin-top: 20px;" required />
+          <input type="text" placeholder="Address" style="padding: 15px 10px; font-size: 15px; width: 100%; border: 2px solid cadetblue; border-radius: 4px; outline: none; color: cadetblue; margin-top: 20px;" required />
+
+        </div>
+        
+      </div>
+
+      <button id="submit_button" type="submit">Submit</button>
+    
+    </form>
+
+  </body>
+</html>
