@@ -2,8 +2,14 @@
     margin: 0;
     padding: o;
 }
+
+
+
 .container{
-    background-color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.5)),url("https://images.unsplash.com/20/cambridge.JPG?q=80&w=1147&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -14,8 +20,8 @@
 .card{
     display: flex;
     flex-direction: column;
-    background-color: white;
-    border: 2px solid cadetblue;
+    background-color: transparent;
+    border: 3px solid white;
     justify-content: start;
     align-items: center;
     width: 450px;
