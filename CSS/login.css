@@ -46,18 +46,8 @@
     margin-top: 3px;
     color: #ffffff;
 }
-button{
-    width: 100px;
-    height: 50px;
-    margin-top: 35px;
-    font-size: 18px;
-    background-color: white;
-    outline: none;
-    border: none;
+.forgot-password-link{
+    width: 100%;
+    margin-top: 15px;
     color: white;
-    letter-spacing: 1px;
-}
-
-button:hover{
-    background-color: gray;
 }
