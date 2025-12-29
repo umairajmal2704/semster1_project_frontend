@@ -54,7 +54,7 @@ a:hover{
     height: 100%;
     display: flex;
     align-items: center;
-    color: #fffdd0;
+    color: beige;
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 20px 0;
@@ -82,17 +82,6 @@ a:hover{
     backdrop-filter: blur(5px);
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
-
-.inner-student{
-    transition: all 0.2s ease-in-out; position: absolute; width: 200%; height: 200%; left: 100%; background-color: ;
-}
-
-.student:hover .inner-student{
-
-    left: 0%;
-
-}
-
 
 .ancher{ 
     background-color: cadetblue;
