@@ -84,7 +84,7 @@ a:hover{
 }
 
 .inner-student{
-    transition: all 0.2s ease-in-out; position: absolute; width: 200%; height: 200%; left: 100%; background-color: rgba(95, 158, 160, 0.2);
+    transition: all 0.2s ease-in-out; position: absolute; width: 200%; height: 200%; left: 100%; background-color: ;
 }
 
 .student:hover .inner-student{
